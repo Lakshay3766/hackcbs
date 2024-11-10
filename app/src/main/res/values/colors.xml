@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3068cc</color>-->
+    <color name="colorPrimary">#577AEA</color>
+    <color name="colorSecondary">#DF9163C6</color>
+    <color name="colorPrimaryDark">#093075</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hairLineColor">#d6d6d6</color>
+    <color name="mainTextColor">#464646</color>
+    <color name="subTextColor">#313132</color>
+
+    <color name="doneColor">#26a94e</color>
+    <color name="firstColor">#23bfd4</color>
+    <color name="secondColor">#2594df</color>
+    <color name="thirdColor">#2435df</color>
+
+    <color name="warningColor">#D0FF9800</color>
+
+    <!-- Added missing calendar_divider color -->
+    <color name="calendar_divider">#E0E0E0</color> <!-- You can change the color code as needed -->
+</resources>

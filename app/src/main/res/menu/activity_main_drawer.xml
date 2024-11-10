@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_dashboard"
+            android:enabled="true"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_malware_scan"
+            android:icon="@drawable/outline_radar_24"
+            android:title="@string/menu_malware_scan" />
+        <item
+            android:id="@+id/nav_settings_scan"
+            android:icon="@drawable/outline_admin_panel_settings_24"
+            android:title="@string/menu_privacy_settings" />
+        <item
+            android:id="@+id/nav_apps_info"
+            android:icon="@drawable/outline_app_settings_alt_24"
+            android:title="@string/menu_apps_info" />
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@drawable/ic_outline_preferences_24"
+            android:title="@string/menu_preferences" />
+        <item
+            android:id="@+id/nav_data_safety"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="Data safety" />
+    </group>
+</menu>
